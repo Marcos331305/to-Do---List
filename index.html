@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>toDo lisT</title>
+    <link rel="stylesheet" href="toDo.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body class="bg-slate-500">
+    <!-- Wrapper -->
+    <div class="mt-10">
+        <!-- container -->
+        <div class="">
+            <div class="mb-4">
+                <h1 class="text-[40px] text-center font-mono text-white font-semibold">toDo lisT</h1>
+            </div>
+            <div class="flex items-center w-full gap-2 justify-center">
+                <input id="inputarea" type="text" class="text-white font-mono rounded-sm pl-[5px] bg-slate-500 outline-none border-[1px] border-[#334154] w-64 h-[42px] text-[23px]">
+                <button id="aDD" onclick="addTask()" class="px-5 font-mono rounded-sm py-[7px] bg-slate-700 text-white text-lg">aDD</button>
+            </div>
+            <ul id="taskcontainer" class="mt-10 flex justify-center items-center flex-col gap-4 text-white text-2xl">
+            </ul>
+        </div>
+    </div>
+    <div class="h-10"></div>
+    <script src="toDo.js"></script>
+</body>
+</html>
